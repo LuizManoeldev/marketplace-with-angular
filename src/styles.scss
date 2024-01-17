@@ -1,0 +1,39 @@
+
+@font-face {
+  font-family: "NikeFont";
+  src: url('./assets/fonts/futura-medium-condensed.ttf') format("truetype");
+  font-weight:normal;
+  font-style:normal;
+}
+
+@font-face {
+  font-family: "NikeFontBold";
+  src: url('./assets/fonts/futura-bold.ttf') format("truetype");
+  font-weight:bold;
+}
+
+@font-face {
+  font-family: "NikeFontTitle";
+  src: url('./assets/fonts/futura-heavy.ttf') format("truetype");
+  font-weight:normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NikeFontLight";
+  src: url('./assets/fonts/futura-condensed-light.ttf') format("truetype");
+  font-weight:normal;
+  font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "NikeFont", serif;
+    font-size: 1.2rem;
+}
+
+h1{
+  font-family: "NikeFontBold";
+}
