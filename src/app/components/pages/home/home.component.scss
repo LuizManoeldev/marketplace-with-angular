@@ -1,0 +1,54 @@
+#promos{
+  background-color: blue;
+  width: 100%;
+  height: 2rem;
+}
+
+#container{
+  display:flex;
+  justify-content: center;
+  height:auto;
+  min-height: 100vh;
+
+  #wrapper {
+    width: 100%;
+    padding: 0 3.7rem;
+
+    #content{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      #breakpoints{
+        background: darkgreen;
+        width: 100%;
+        height:3rem;
+      }
+      #filters {
+        top:10rem;
+        position: sticky;
+        min-height: 100%;
+        width: 19%;
+        background-color: yellow;
+        overflow: scroll;
+
+      }
+
+      #allProducts {
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        .card{
+            max-width: 20rem;
+        }
+      }
+    }
+
+
+  }
+
+}
