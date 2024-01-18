@@ -6,6 +6,8 @@ import { FooterComponent } from './footer/footer.component';
 
 import {MaterialModule} from './../../shared/material/material.module';
 import {RouterLink} from "@angular/router";
+import {FormsModule} from "@angular/forms";
+
 
 @NgModule({
   declarations: [
@@ -16,7 +18,7 @@ import {RouterLink} from "@angular/router";
     CommonModule,
     MaterialModule,
     RouterLink,
-
+    FormsModule,
   ],
   exports:[
     HeaderComponent,

@@ -3,18 +3,23 @@ mat-toolbar{
   list-style: none;
 
   #row1{
-    height:1rem;
+    background-color: rgba(247,247,247,0.81);
+    height: 1.3rem;
     justify-content: flex-end;
+
 
     span{
       width: 15%;
       display: flex;
       flex-direction:row;
       justify-content: space-around;
+     // margin-top: 0.3rem;
+
 
       a{
-        font-family: "NikeFontLight";
-        font-size: 1rem;
+        font-family: "NikeFontLight", sans-serif;
+        font-size: 0.7rem;
+        text-decoration: none;
       }
     }
 
@@ -22,6 +27,7 @@ mat-toolbar{
   #row2{
     display: flex;
     justify-content: space-around;
+    background-color: white;
 
     #logo{
       height: 2rem;
@@ -29,12 +35,53 @@ mat-toolbar{
 
     #navigation{
       width: 40%;
+      height:100%;
 
       display: flex;
       flex-direction: row;
       justify-content: space-around;
 
 
+      li{
+        padding: 0.8rem;
+      }
+
+      a{
+        vertical-align: middle;
+        text-decoration: none;
+        color:black;
+      }
+    }
+
+    #tools{
+      display: flex;
+      flex-direction: row;
+
+
+      #search-box{
+        align-items: center;
+        display: flex;
+        flex-direction: row-reverse;
+        border-radius: 200rem;
+        box-sizing: border-box;
+        //padding:1rem;
+        position:relative;
+        background-color: var(--secondary-color);
+
+
+        input{
+          width: 100%;
+          font-family: "Helvetica Neue",Helvetica,Arial, sans-serif;
+          font-weight: 400;
+          font-size: 0.7rem;
+          //line-height: 1.5;
+          border:medium;
+          outline:none;
+          background:transparent;
+          padding: 0.1rem;
+
+        }
+      }
     }
   }
 

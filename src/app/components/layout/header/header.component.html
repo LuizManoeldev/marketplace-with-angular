@@ -9,20 +9,32 @@
   <mat-toolbar-row id="row2">
 
     <span>
-      <img id="logo" src="./../../../../assets/logo/full-logo.png">
+      <a routerLink = '/'> <img id="logo" src="./../../../../assets/logo/full-logo.png"> </a>
     </span>
 
     <nav id="navigation">
-        <li><a routerLink = '/'> Home</a></li>
         <li><a routerLink = '/about'> Lancamentos</a></li>
         <li><a routerLink = '/'> Ofertas</a></li>
         <li><a routerLink = '/about'> Masculino</a></li>
         <li><a routerLink = '/'> Feminino</a></li>
         <li><a routerLink = '/about'> Infantil</a></li>
     </nav>
-    <span>
-        <button></button>
-        <input>
+
+    <span id="tools">
+        <form id="search-box">
+          <input>
+          <button mat-icon-button>
+            <img src="assets/icon/search.png">
+          </button>
+        </form>
+
+        <button mat-icon-button >
+         <img src="assets/icon/heart.png">
+        </button>
+
+        <button mat-icon-button>
+          <img src="assets/icon/cart.png">
+        </button>
     </span>
   </mat-toolbar-row>
 </mat-toolbar>
